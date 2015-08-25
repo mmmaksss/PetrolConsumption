@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VoiceActivity"
+    android:background="@color/voice_background" >
+
+    <ImageView
+        android:id="@+id/microphone_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/microphone_red" />
+
+    <ImageView
+        android:id="@+id/button_start"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/microphone_image"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/microphone_off_icon"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"/>
+
+    <ProgressBar
+        android:id="@+id/voice_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:max="80"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:progressDrawable="@drawable/voice_progress_bar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/microphone_image" />
+
+    <ScrollView
+        android:id="@+id/id_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/microphone_image" >
+
+        <TextView
+            android:id="@+id/test_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+    </ScrollView>
+</RelativeLayout>

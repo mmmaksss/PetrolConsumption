@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Commands -->
+    <string-array name="command_open_common_settings">
+        <item>open common settings</item>
+        <item>open phone settings</item>
+    </string-array>
+
+    <string-array name="command_close_common_settings">
+        <item>open settings</item>
+        <item>start settings</item>
+    </string-array>
+
+    <string-array name="command_open_main_screen">
+        <item>home</item>
+        <item>main screen</item>
+    </string-array>
+
+    <string-array name="command_turn_on_lamp">
+        <item>turn on lamp</item>
+    </string-array>
+
+    <string-array name="command_turn_off_lamp">
+        <item>turn off lamp</item>
+    </string-array>
+
+    <string-array name="command_turn_on_sos">
+        <item>turn on sos</item>
+    </string-array>
+
+    <string-array name="command_turn_off_sos">
+        <item>turn off sos</item>
+    </string-array>
+
+    <string-array name="command_open_application_settings">
+        <item>open settings</item>
+        <item>start settings</item>
+    </string-array>
+
+    <string-array name="command_close_application_settings">
+        <item>close settings</item>
+    </string-array>
+
+    <string-array name="command_change_recognizer">
+        <item>change recognizer</item>
+    </string-array>
+
+    <string-array name="command_change_language">
+        <item>change language</item>
+    </string-array>
+
+    <string-array name="command_change_dialog_settings">
+        <item>change dialog settings</item>
+    </string-array>
+
+    <string-array name="command_open_youtube">
+        <item>open youtube</item>
+    </string-array>
+
+    <string-array name="command_open_browser">
+        <item>open browser</item>
+    </string-array>
+
+    <string-array name="command_search">
+        <item>find</item>
+        <item>search</item>
+    </string-array>
+
+</resources>

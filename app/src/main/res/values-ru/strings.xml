@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_activate_google">Запуск Google распознавателя</string>
+    <string name="action_activate_nuance">Запуск Nuance распознавателя</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="settings_recognizer">Распознаватель</string>
+    <string name="settings_recognizer_title">Выбор распознавателя</string>
+
+    <string name="settings_language">Язык</string>
+    <string name="settings_language_ru">Русский</string>
+    <string name="settings_language_en">Английский</string>
+    <string name="settings_language_title">Выбор языка</string>
+
+    <string name="settings_show_confirm_dialog">Показывать диалог подтверждения</string>
+    <string name="settings_looper">Циклить команды</string>
+
+    <string name="dialog_confirm_yes">Да</string>
+    <string name="dialog_confirm_no">Нет</string>
+    <string name="dialog_confirm_text_yes">да</string>
+
+    <string name="dialog_google_market_message">Для распознования голоса необходимо установить \"Google Voice Search\"</string>
+    <string name="dialog_google_market_title">Установить \"Google Voice Search\" из \"Google Play\"?</string>
+    <string name="dialog_google_market_install">Установить</string>
+    <string name="dialog_google_market_cancel">Отмена</string>
+
+    <string name="notification_recognition_launched">распознование запущено</string>
+    <string name="notification_recognition_stopped">распознование остановленно</string>
+    <string name="notification_recognition_launched_text">Распознователь через виджет запущен.</string>
+    <string name="notification_recognition_stopped_text">Распознователь через виджет остановлен.</string>
+</resources>

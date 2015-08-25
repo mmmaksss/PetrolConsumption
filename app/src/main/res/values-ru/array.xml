@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="word_exceptions">
+    </string-array>
+    <string-array name="word_correction_en">
+        <item>sos</item>
+    </string-array>
+    <string-array name="word_correction_ru">
+        <item>сос</item>
+    </string-array>
+</resources>

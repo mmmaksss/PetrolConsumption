@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/voice_background"
+    tools:context=".SplashActivity" >
+
+    <ImageView
+        android:id="@+id/id_splash_microphone"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/splash_microphone" />
+
+    <ImageView
+        android:src="@drawable/splash_graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/id_splash_microphone"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/id_splash_microphone"
+        android:text="@string/app_name"
+        android:textStyle="bold|italic"
+        android:textSize="23sp"
+        android:textColor="@color/splash_text"
+        android:gravity="center" />
+
+</RelativeLayout>
+<!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/layout/activity_splash.xml -->

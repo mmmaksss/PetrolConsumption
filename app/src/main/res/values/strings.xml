@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Petrol Consumption</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_activate_google">Activate Google recognition</string>
+    <string name="action_activate_nuance">Activate Nuance recognition</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="settings_recognizer">Recognizer</string>
+    <string name="settings_recognizer_google">Google</string>
+    <string name="settings_recognizer_nuance">Nuance</string>
+    <string name="settings_recognizer_title">Select recognizer</string>
+
+    <string name="settings_language">Language</string>
+    <string name="settings_language_ru">Russian</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_title">Select language</string>
+
+    <string name="settings_show_confirm_dialog">Show confirm dialog</string>
+    <string name="settings_looper">Looper</string>
+
+    <string name="dialog_confirm_yes">Yes</string>
+    <string name="dialog_confirm_no">No</string>
+
+    <string name="dialog_confirm_text_yes">yes</string>
+
+    <string name="dialog_google_market_message">For recognition it’s necessary to install \"Google Voice Search\"</string>
+    <string name="dialog_google_market_title">Install \"Google Voice Search\" from \"Google Play\"?</string>
+    <string name="dialog_google_market_install">Install</string>
+    <string name="dialog_google_market_cancel">Cancel</string>
+
+    <string name="notification_recognition_launched">recognition launched</string>
+    <string name="notification_recognition_stopped">recognition stopped</string>
+    <string name="notification_recognition_launched_text">Recognizer was launched by the widget</string>
+    <string name="notification_recognition_stopped_text">Recognizer by the widget was stopped</string>
+
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands.xml -->
+    <eat-comment/>
+    <string-array name="command_change_dialog_settings">
+        <item>изменить настройки диалога</item>
+    </string-array>
+    <string-array name="command_change_language">
+        <item>изменить язык</item>
+    </string-array>
+    <string-array name="command_change_recognizer">
+        <item>изменить распознаватель</item>
+    </string-array>
+    <string-array name="command_close_application_settings">
+        <item>закрыть настройки приложения</item>
+    </string-array>
+    <string-array name="command_close_common_settings">
+        <item>закрыть настройки</item>
+    </string-array>
+    <string-array name="command_open_application_settings">
+        <item>открыть настройки приложения</item>
+        <item>запустить настройки приложения</item>
+    </string-array>
+    <string-array name="command_open_browser">
+        <item>открыть браузер</item>
+        <item>браузер</item>
+    </string-array>
+    <string-array name="command_open_common_settings">
+        <item>открыть настройки</item>
+        <item>запустить настройки</item>
+        <item>старт настроек</item>
+    </string-array>
+    <string-array name="command_open_main_screen">
+        <item>свернуть приложение</item>
+        <item>скрыть приложение</item>
+        <item>главный экран</item>
+        <item>oткрыть главный скрин</item>
+    </string-array>
+    <string-array name="command_open_youtube">
+        <item>открыть ютюб</item>
+        <item>открыть ютьюб</item>
+        <item>открыть youtube</item>
+        <item>открыть ютуб</item>
+        </string-array>
+    <string-array name="command_search">
+        <item>найти</item>
+        <item>поиск</item>
+        <item>как</item>
+    </string-array>
+    <string-array name="command_turn_off_lamp">
+        <item>выключить лампочку</item>
+    </string-array>
+    <string-array name="command_turn_off_sos">
+        <item>выключить сос</item>
+    </string-array>
+    <string-array name="command_turn_on_lamp">
+        <item>включить лампочку</item>
+    </string-array>
+    <string-array name="command_turn_on_sos">
+        <item>включить сос</item>
+    </string-array>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/array.xml -->
+    <eat-comment/>
+    <string-array name="word_correction_en">
+        <item>sos</item>
+    </string-array>
+    <string-array name="word_correction_ru">
+        <item>сос</item>
+    </string-array>
+    <string-array name="word_exceptions">
+    </string-array>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="action_activate_google">Запуск Google распознавателя</string>
+    <string name="action_activate_nuance">Запуск Nuance распознавателя</string>
+    <string name="action_settings">Настройки</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_part.xml -->
+    <eat-comment/>
+    <string name="command_change">изменить</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_info.xml -->
+    <eat-comment/>
+    <string name="command_change_dialog_settings">Команда: Изменить настройки диалога</string>
+    <string name="command_change_language">Команда: Изменить язык</string>
+    <string name="command_change_recognizer">Команда: Изменить распознаватель</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_part.xml -->
+    <eat-comment/>
+    <string name="command_close">закрыть</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_info.xml -->
+    <eat-comment/>
+    <string name="command_close_application_settings">Команда: Закрыть настройки приложения</string>
+    <string name="command_close_common_settings">Команда: Закрыть общие настройки</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_part.xml -->
+    <eat-comment/>
+    <string name="command_finish">кончить</string>
+    <string name="command_launch">запуск</string>
+    <string name="command_minimize">свернуть</string>
+    <string name="command_open">открыть</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_info.xml -->
+    <eat-comment/>
+    <string name="command_open_application_settings">Команда: Открыть настройки приложения</string>
+    <string name="command_open_common_settings">Команда: Открыть общие настройки</string>
+    <string name="command_open_main_screen">Команда: Открыть главный скрин</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_part.xml -->
+    <eat-comment/>
+    <string name="command_select">выбрать</string>
+    <string name="command_start">старт</string>
+    <string name="command_stop">стоп</string>
+    <string name="command_turn_off">выключить</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_info.xml -->
+    <eat-comment/>
+    <string name="command_turn_off_lamp">Команда: Выключить фонарь</string>
+    <string name="command_turn_off_sos">Команда: Выключить COC</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_part.xml -->
+    <eat-comment/>
+    <string name="command_turn_on">включить</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_info.xml -->
+    <eat-comment/>
+    <string name="command_turn_on_lamp">Команда: Включить фонарь</string>
+    <string name="command_turn_on_sos">Команда: Включить COC</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="dialog_confirm_no">Нет</string>
+    <string name="dialog_confirm_text_yes">да</string>
+    <string name="dialog_confirm_yes">Да</string>
+    <string name="dialog_google_market_cancel">Отмена</string>
+    <string name="dialog_google_market_install">Установить</string>
+    <string name="dialog_google_market_message">Для распознования голоса необходимо установить \"Google Voice Search\"</string>
+    <string name="dialog_google_market_title">Установить \"Google Voice Search\" из \"Google Play\"?</string>
+    <string name="notification_recognition_launched">распознование запущено</string>
+    <string name="notification_recognition_launched_text">Распознователь через виджет запущен.</string>
+    <string name="notification_recognition_stopped">распознование остановленно</string>
+    <string name="notification_recognition_stopped_text">Распознователь через виджет остановлен.</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_language_en">Английский</string>
+    <string name="settings_language_ru">Русский</string>
+    <string name="settings_language_title">Выбор языка</string>
+    <string name="settings_looper">Циклить команды</string>
+    <string name="settings_recognizer">Распознаватель</string>
+    <string name="settings_recognizer_title">Выбор распознавателя</string>
+    <string name="settings_show_confirm_dialog">Показывать диалог подтверждения</string>
+    <string name="title_activity_settings">Настройки</string>
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values-ru/commands_with_whoam_part.xml -->
+    <eat-comment/>
+    <string name="with_application">приложение</string>
+    <string name="with_common">общие</string>
+    <string name="with_dialog">диалог</string>
+    <string name="with_lamp">фонарь</string>
+    <string name="with_language">язык</string>
+    <string name="with_main_srceen">главный</string>
+    <string name="with_recognizer">распознаватель</string>
+    <string name="with_settings">настройки</string>
+    <string name="with_sos">сос</string>
+</resources>

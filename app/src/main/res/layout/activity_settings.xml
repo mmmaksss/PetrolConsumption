@@ -1,0 +1,121 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/voice_background"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/settings_microphone_icon"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_gravity="left|top"
+            android:scaleType="fitXY"
+            android:src="@drawable/settings_red_icon"
+            android:contentDescription="@string/app_name"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/settings_spinner_recignizer"
+                android:text="@string/settings_recognizer"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:layout_centerVertical="true"
+                android:ellipsize="end" />
+
+            <Spinner
+                android:id="@+id/settings_spinner_recignizer"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/settings_spinner_language"
+                android:text="@string/settings_language"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:layout_centerVertical="true"
+                android:ellipsize="end" />
+
+            <Spinner
+                android:id="@+id/settings_spinner_language"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/settings_checkbox_confirm_dialog"
+                android:text="@string/settings_show_confirm_dialog"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:layout_centerVertical="true"
+                android:ellipsize="end" />
+
+            <CheckBox
+                android:id="@+id/settings_checkbox_confirm_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/settings_checkbox_looper_button"
+                android:text="@string/settings_looper"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:layout_centerVertical="true"
+                android:ellipsize="end" />
+
+            <CheckBox
+                android:id="@+id/settings_checkbox_looper_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

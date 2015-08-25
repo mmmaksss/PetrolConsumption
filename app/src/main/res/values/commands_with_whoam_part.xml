@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Commands -->
+    <string name="with_settings">settings</string>
+    <string name="with_common">common</string>
+    <string name="with_main_srceen">main</string>
+    <string name="with_lamp">lamp</string>
+    <string name="with_sos">sos</string>
+    <string name="with_application">application</string>
+    <string name="with_recognizer">recognizer</string>
+    <string name="with_dialog">dialog</string>
+    <string name="with_language">language</string>
+</resources>

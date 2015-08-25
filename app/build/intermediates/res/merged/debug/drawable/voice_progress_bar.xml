@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="15dip" />
+            <gradient
+                android:angle="270"
+                android:centerColor="#ff5a5d5a"
+                android:centerY="0.5"
+                android:endColor="#ff747674"
+                android:startColor="#ff9d9e9d" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip android:gravity="center">
+            <shape android:shape="rectangle" >
+                <corners android:radius="15dip" />
+                <stroke
+                    android:width="1dip"
+                    android:color="@android:color/transparent" />
+                <gradient
+                    android:centerColor="#ff000000"
+                    android:endColor="#ffff0000"
+                    android:gradientRadius="200"
+                    android:startColor="#ff00ff00"
+                    android:type="radial" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
+<!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/drawable/voice_progress_bar.xml -->

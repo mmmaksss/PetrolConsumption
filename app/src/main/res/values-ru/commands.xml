@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Commands -->
+    <string-array name="command_open_common_settings">
+        <item>открыть настройки</item>
+        <item>запустить настройки</item>
+        <item>старт настроек</item>
+    </string-array>
+
+    <string-array name="command_close_common_settings">
+        <item>закрыть настройки</item>
+    </string-array>
+
+    <string-array name="command_open_main_screen">
+        <item>свернуть приложение</item>
+        <item>скрыть приложение</item>
+        <item>главный экран</item>
+        <item>oткрыть главный скрин</item>
+    </string-array>
+
+    <string-array name="command_turn_on_lamp">
+        <item>включить лампочку</item>
+    </string-array>
+
+    <string-array name="command_turn_off_lamp">
+        <item>выключить лампочку</item>
+    </string-array>
+
+    <string-array name="command_turn_on_sos">
+        <item>включить сос</item>
+    </string-array>
+
+    <string-array name="command_turn_off_sos">
+        <item>выключить сос</item>
+    </string-array>
+
+    <string-array name="command_open_application_settings">
+        <item>открыть настройки приложения</item>
+        <item>запустить настройки приложения</item>
+    </string-array>
+
+    <string-array name="command_close_application_settings">
+        <item>закрыть настройки приложения</item>
+    </string-array>
+
+    <string-array name="command_change_recognizer">
+        <item>изменить распознаватель</item>
+    </string-array>
+
+    <string-array name="command_change_language">
+        <item>изменить язык</item>
+    </string-array>
+
+    <string-array name="command_change_dialog_settings">
+        <item>изменить настройки диалога</item>
+    </string-array>
+
+    <string-array name="command_open_youtube">
+        <item>открыть ютюб</item>
+        <item>открыть ютьюб</item>
+        <item>открыть youtube</item>
+        <item>открыть ютуб</item>
+        </string-array>
+
+    <string-array name="command_open_browser">
+        <item>открыть браузер</item>
+        <item>браузер</item>
+    </string-array>
+    
+    <string-array name="command_search">
+        <item>найти</item>
+        <item>поиск</item>
+        <item>как</item>
+    </string-array>
+
+</resources>

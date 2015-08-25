@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Commands -->
+    <string name="command_open">открыть</string>
+    <string name="command_start">старт</string>
+    <string name="command_launch">запуск</string>
+    <string name="command_select">выбрать</string>
+    <string name="command_turn_on">включить</string>
+    <string name="command_minimize">свернуть</string>
+
+    <string name="command_close">закрыть</string>
+    <string name="command_stop">стоп</string>
+    <string name="command_finish">кончить</string>
+    <string name="command_turn_off">выключить</string>
+
+    <string name="command_change">изменить</string>
+</resources>

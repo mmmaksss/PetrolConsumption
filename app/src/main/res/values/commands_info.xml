@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Commands -->
+    <string name="command_open_common_settings">Command:Open common settings</string>
+    <string name="command_close_common_settings">Command:Close common settings</string>
+    <string name="command_open_main_screen">Command:Go to main screen</string>
+    <string name="command_turn_on_lamp">Command:Turn on lamp</string>
+    <string name="command_turn_off_lamp">Command:Turn off lamp</string>
+    <string name="command_turn_on_sos">Command:Turn on SOS</string>
+    <string name="command_turn_off_sos">Command:Turn off SOS</string>
+    <string name="command_open_application_settings">Command:Open application settings</string>
+    <string name="command_close_application_settings">Command:Close application settings</string>
+    <string name="command_change_recognizer">Command:Change recognizer</string>
+    <string name="command_change_language">Command:Change language</string>
+    <string name="command_change_dialog_settings">Command:Change dialog settings</string>
+</resources>

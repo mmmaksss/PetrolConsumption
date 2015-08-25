@@ -1,0 +1,9 @@
+TASK com.android.voicerecognizer id=29
+  ACTIVITY com.android.voicerecognizer/.ui.VoiceActivity 4118ec18 pid=27912
+    Local Activity 41204ed8 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.15 250mcc99mnc ru_RU sw320dp w320dp h508dp nrml long port finger -keyb/v/h -nav/h s.122 skin=com.htc.skin.Graphite fontsize=4 hasNavBar=0}
+    FragmentManager misc state:
+      mCurState=5 mStateSaved=false mDestroyed=false

@@ -1,169 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands.xml -->
+    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <string-array name="command_change_dialog_settings">
-        <item>change dialog settings</item>
-    </string-array>
-    <string-array name="command_change_language">
-        <item>change language</item>
-    </string-array>
-    <string-array name="command_change_recognizer">
-        <item>change recognizer</item>
-    </string-array>
-    <string-array name="command_close_application_settings">
-        <item>close settings</item>
-    </string-array>
-    <string-array name="command_close_common_settings">
-        <item>open settings</item>
-        <item>start settings</item>
-    </string-array>
-    <string-array name="command_open_application_settings">
-        <item>open settings</item>
-        <item>start settings</item>
-    </string-array>
-    <string-array name="command_open_browser">
-        <item>open browser</item>
-    </string-array>
-    <string-array name="command_open_common_settings">
-        <item>open common settings</item>
-        <item>open phone settings</item>
-    </string-array>
-    <string-array name="command_open_main_screen">
-        <item>home</item>
-        <item>main screen</item>
-    </string-array>
-    <string-array name="command_open_youtube">
-        <item>open youtube</item>
-    </string-array>
-    <string-array name="command_search">
-        <item>find</item>
-        <item>search</item>
-    </string-array>
-    <string-array name="command_turn_off_lamp">
-        <item>turn off lamp</item>
-    </string-array>
-    <string-array name="command_turn_off_sos">
-        <item>turn off sos</item>
-    </string-array>
-    <string-array name="command_turn_on_lamp">
-        <item>turn on lamp</item>
-    </string-array>
-    <string-array name="command_turn_on_sos">
-        <item>turn on sos</item>
-    </string-array>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/array.xml -->
-    <eat-comment/>
-    <string-array name="word_exceptions">
-
-    </string-array>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="splash_text">#1EFF00</color>
-    <color name="voice_background">#351508</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="action_activate_google">Activate Google recognition</string>
-    <string name="action_activate_nuance">Activate Nuance recognition</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Petrol Consumption</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_part.xml -->
-    <eat-comment/>
-    <string name="command_change">change</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_info.xml -->
-    <eat-comment/>
-    <string name="command_change_dialog_settings">Command:Change dialog settings</string>
-    <string name="command_change_language">Command:Change language</string>
-    <string name="command_change_recognizer">Command:Change recognizer</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_part.xml -->
-    <eat-comment/>
-    <string name="command_close">close</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_info.xml -->
-    <eat-comment/>
-    <string name="command_close_application_settings">Command:Close application settings</string>
-    <string name="command_close_common_settings">Command:Close common settings</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_part.xml -->
-    <eat-comment/>
-    <string name="command_finish">finish</string>
-    <string name="command_launch">launch</string>
-    <string name="command_minimize">minimize</string>
-    <string name="command_open">open</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_info.xml -->
-    <eat-comment/>
-    <string name="command_open_application_settings">Command:Open application settings</string>
-    <string name="command_open_common_settings">Command:Open common settings</string>
-    <string name="command_open_main_screen">Command:Go to main screen</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_part.xml -->
-    <eat-comment/>
-    <string name="command_select">select</string>
-    <string name="command_start">start</string>
-    <string name="command_stop">stop</string>
-    <string name="command_turn_off">off</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_info.xml -->
-    <eat-comment/>
-    <string name="command_turn_off_lamp">Command:Turn off lamp</string>
-    <string name="command_turn_off_sos">Command:Turn off SOS</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_part.xml -->
-    <eat-comment/>
-    <string name="command_turn_on">on</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_info.xml -->
-    <eat-comment/>
-    <string name="command_turn_on_lamp">Command:Turn on lamp</string>
-    <string name="command_turn_on_sos">Command:Turn on SOS</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/strings.xml -->
-    <eat-comment/>
-    <string name="dialog_confirm_no">No</string>
-    <string name="dialog_confirm_text_yes">yes</string>
-    <string name="dialog_confirm_yes">Yes</string>
-    <string name="dialog_google_market_cancel">Cancel</string>
-    <string name="dialog_google_market_install">Install</string>
-    <string name="dialog_google_market_message">For recognition it’s necessary to install \"Google Voice Search\"</string>
-    <string name="dialog_google_market_title">Install \"Google Voice Search\" from \"Google Play\"?</string>
-    <string name="notification_recognition_launched">recognition launched</string>
-    <string name="notification_recognition_launched_text">Recognizer was launched by the widget</string>
-    <string name="notification_recognition_stopped">recognition stopped</string>
-    <string name="notification_recognition_stopped_text">Recognizer by the widget was stopped</string>
-    <string name="settings_language">Language</string>
-    <string name="settings_language_en">English</string>
-    <string name="settings_language_ru">Russian</string>
-    <string name="settings_language_title">Select language</string>
-    <string name="settings_looper">Looper</string>
-    <string name="settings_recognizer">Recognizer</string>
-    <string name="settings_recognizer_google">Google</string>
-    <string name="settings_recognizer_nuance">Nuance</string>
-    <string name="settings_recognizer_title">Select recognizer</string>
-    <string name="settings_show_confirm_dialog">Show confirm dialog</string>
-    <string name="title_activity_settings">Settings</string>
-    <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/commands_with_whoam_part.xml -->
-    <eat-comment/>
-    <string name="with_application">application</string>
-    <string name="with_common">common</string>
-    <string name="with_dialog">dialog</string>
-    <string name="with_lamp">lamp</string>
-    <string name="with_language">language</string>
-    <string name="with_main_srceen">main</string>
-    <string name="with_recognizer">recognizer</string>
-    <string name="with_settings">settings</string>
-    <string name="with_sos">sos</string>
+    <string name="app_name">PetrolConsumption</string>
+    <string name="hello_world">Hello world!</string>
     <!-- From: file:/F:/WORK/mmmaksss/GitHub/PetrolConsumption/app/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
-    </style>
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-    </style>
-    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowBackground">@null</item>
-        <item name="android:windowAnimationStyle">@null</item>
-    </style>
-    <style name="SettingsScreenTheme" parent="android:Theme.NoTitleBar">
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowBackground">@null</item>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
     </style>
 </resources>

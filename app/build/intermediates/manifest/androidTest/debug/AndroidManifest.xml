@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.petrolconsumption.test">
+    package="petrolconsumption.mmekhtiev.ru.petrolconsumption.test">
 
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="23" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.android.petrolconsumption"
+                     android:targetPackage="petrolconsumption.mmekhtiev.ru.petrolconsumption"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.android.petrolconsumption"/>
+                     android:label="Tests for petrolconsumption.mmekhtiev.ru.petrolconsumption"/>
 </manifest>

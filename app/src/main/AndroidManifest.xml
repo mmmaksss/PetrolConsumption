@@ -1,77 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.petrolconsumption"
-    android:versionCode="1"
-    android:versionName="1.0" >
-
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
-
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.INTERNET" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.RECORD_AUDIO" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.VIBRATE" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.BLUETOOTH" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" >
-    </uses-permission>
+    package="ru.mmekhtiev.petrolconsumption" >
 
     <application
-        android:name=".PetrolConsumptionApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.android.petrolconsumption.ui.SplashActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/FullscreenTheme" >
+            android:name=".ui.RefuelingListActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.android.petrolconsumption.ui.VoiceActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/FullscreenTheme"
-            android:launchMode="singleTask" />
-        <activity
-            android:name="com.android.petrolconsumption.ui.SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:screenOrientation="portrait"
-            android:theme="@style/SettingsScreenTheme" >
-        </activity>
-
-        <service android:name="com.android.petrolconsumption.utils.VoiceRecognizerService" >
-        </service>
-
-        <receiver
-            android:name="com.android.petrolconsumption.widget.Widget"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.android.petrolconsumption.widget.START_COMMAND_LISTENING" />
-                <action android:name="com.android.petrolconsumption.widget.STOP_COMMAND_LISTENING" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/widget" />
-        </receiver>
-
-        <receiver
-            android:name="com.android.petrolconsumption.utils.NotificationReceiver"
-            android:label="@string/app_name">
-        </receiver>
     </application>
+
 </manifest>

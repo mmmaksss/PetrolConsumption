@@ -1,4 +1,4 @@
-package ru.mmekhtiev.petrolconsumptions;
+package ru.mmekhtiev.petrolconsumption;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -8,6 +8,9 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 
 import ru.mmekhtiev.petrolconsumption.data.Refuelling;
@@ -18,6 +21,8 @@ import ru.mmekhtiev.petrolconsumption.data.Refuelling;
 public class RefuellingFragment extends Fragment {
     private Refuelling mRefuelling;
     private EditText mTitleField;
+    private Button mDateButton;
+    private CheckBox mFinishedCheckBox;
 
 
     @Override
@@ -30,6 +35,7 @@ public class RefuellingFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_refueling,container,false);
+
         mTitleField = (EditText) v.findViewById(R.id.refuelling_title);
         mTitleField.addTextChangedListener(
                 new TextWatcher(){
@@ -47,6 +53,17 @@ public class RefuellingFragment extends Fragment {
                     }
                 });
 
+        mDateButton = (Button)v.findViewById(R.id.refuelling_date);
+        mDateButton.setText(mRefuelling.getDate().toString());
+        mDateButton.setEnabled(false);
+
+        mFinishedCheckBox = (CheckBox) v.findViewById(R.id.refuelling_finished);
+        mFinishedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                mRefuelling.setFinished(isChecked);
+            }
+        });
         return v;
     }
 }

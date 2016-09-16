@@ -10,7 +10,7 @@ public class Refuelling {
     private String title;
 
 
-    Refuelling() {
+    public Refuelling() {
         mId = UUID.randomUUID();
     }
 

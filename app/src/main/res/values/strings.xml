@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PetrolConsumption</string>
+    <string name="refuelling_title_hint">Enter a title for the refuelling</string>
 </resources>

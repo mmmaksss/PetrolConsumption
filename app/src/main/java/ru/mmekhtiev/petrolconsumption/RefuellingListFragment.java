@@ -9,11 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
-import android.widget.LinearLayout;
+import android.widget.CompoundButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.security.PrivateKey;
 import java.util.List;
 
 import ru.mmekhtiev.petrolconsumption.data.Refuelling;
@@ -37,11 +35,22 @@ public class RefuellingListFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateUI();
+    }
+
     private void updateUI() {
         RefuellingLab refuellingLab = RefuellingLab.get(getActivity());
         List<Refuelling> refuellings = refuellingLab.getRefuellings();
-        mRefuellingAdapter = new RefuellingAdapter(refuellings);
-        mRefuellingRecycleView.setAdapter(mRefuellingAdapter);
+
+        if (mRefuellingAdapter != null) {
+            mRefuellingAdapter.notifyDataSetChanged();
+        } else {
+            mRefuellingAdapter = new RefuellingAdapter(refuellings);
+            mRefuellingRecycleView.setAdapter(mRefuellingAdapter);
+        }
     }
 
     private class RefuellingHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -56,7 +65,9 @@ public class RefuellingListFragment extends Fragment {
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_title_text_view);
             mDateTextView = (TextView) itemView.findViewById(R.id.list_item_date_text_view);
             mSolvedCheckBox = (CheckBox) itemView.findViewById(R.id.list_item_solved_check_box);
-            mSolvedCheckBox.setOnClickListener(this);
+            itemView.setOnClickListener(this);
+
+
         }
 
         public void bindRefuelling(Refuelling refuelling) {
@@ -64,12 +75,17 @@ public class RefuellingListFragment extends Fragment {
             mTitleTextView.setText(mRefuelling.getTitle());
             mDateTextView.setText(mRefuelling.getDate().toString());
             mSolvedCheckBox.setChecked(mRefuelling.isFinished());
-
+            mSolvedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                    mRefuelling.setFinished(isChecked);
+                }
+            });
         }
 
         @Override
         public void onClick(View v) {
-            Toast.makeText(getActivity(), mRefuelling.getTitle() + " clicked", Toast.LENGTH_SHORT).show();
+            startActivity(RefuellingActivity.newIntent(getActivity(),mRefuelling.getId()));
         }
     }
 
